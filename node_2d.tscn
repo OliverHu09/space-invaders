@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://bg2vw0cycop8r"]
 
+[ext_resource type="Script" uid="uid://d3udovrah6088" path="res://area_2d.gd" id="1_0e48y"]
 [ext_resource type="Texture2D" uid="uid://43amorwh4brn" path="res://icon.svg" id="1_wtcfe"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0e48y"]
@@ -8,6 +9,8 @@ size = Vector2(123, 124)
 [node name="Node2D" type="Node2D" unique_id=2044328370]
 
 [node name="Area2D" type="Area2D" parent="." unique_id=740781231]
+position = Vector2(599, 314)
+script = ExtResource("1_0e48y")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=515456833]
 position = Vector2(0.5, 0)
@@ -15,3 +18,5 @@ shape = SubResource("RectangleShape2D_0e48y")
 
 [node name="Sprite2D" type="Sprite2D" parent="Area2D" unique_id=23752039]
 texture = ExtResource("1_wtcfe")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=258525889]

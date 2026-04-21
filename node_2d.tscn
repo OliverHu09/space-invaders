@@ -2,11 +2,19 @@
 
 [ext_resource type="Script" uid="uid://d3udovrah6088" path="res://area_2d.gd" id="1_0e48y"]
 [ext_resource type="Texture2D" uid="uid://43amorwh4brn" path="res://icon.svg" id="1_wtcfe"]
+[ext_resource type="Texture2D" uid="uid://ce6gt521jfado" path="res://fondo negre.jpg" id="3_0hol4"]
+[ext_resource type="Script" uid="uid://cb42igqyqr6lp" path="res://fondo_espai_script.gd" id="4_q6r6c"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0e48y"]
 size = Vector2(123, 124)
 
 [node name="Escena principal" type="Node2D" unique_id=2044328370]
+
+[node name="Fondo espai" type="Sprite2D" parent="." unique_id=1788006528]
+position = Vector2(758.00006, -30)
+scale = Vector2(2.431909, 3.3266907)
+texture = ExtResource("3_0hol4")
+script = ExtResource("4_q6r6c")
 
 [node name="Area2D" type="Area2D" parent="." unique_id=740781231]
 position = Vector2(676, 304)

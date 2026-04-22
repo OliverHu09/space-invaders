@@ -3,8 +3,9 @@
 [ext_resource type="Script" uid="uid://d3udovrah6088" path="res://area_2d.gd" id="1_0e48y"]
 [ext_resource type="Texture2D" uid="uid://43amorwh4brn" path="res://icon.svg" id="1_wtcfe"]
 [ext_resource type="Texture2D" uid="uid://ce6gt521jfado" path="res://fondo negre.jpg" id="3_0hol4"]
-[ext_resource type="Script" uid="uid://f1p5qlohot3v" path="res://fondo_espai_2.gd" id="3_q6r6c"]
+[ext_resource type="Script" path="res://fondo_espai_2.gd" id="3_q6r6c"]
 [ext_resource type="Script" uid="uid://cb42igqyqr6lp" path="res://fondo_espai_script.gd" id="4_q6r6c"]
+[ext_resource type="PackedScene" uid="uid://lsbnherpfog6" path="res://Limit.tscn" id="6_kdubu"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0e48y"]
 size = Vector2(123, 124)
@@ -33,3 +34,8 @@ shape = SubResource("RectangleShape2D_0e48y")
 
 [node name="Sprite2D" type="Sprite2D" parent="Area2D" unique_id=23752039]
 texture = ExtResource("1_wtcfe")
+
+[node name="Limit" parent="." unique_id=1004749942 instance=ExtResource("6_kdubu")]
+
+[node name="Limit2" parent="." unique_id=334599260 instance=ExtResource("6_kdubu")]
+position = Vector2(1152, 0)

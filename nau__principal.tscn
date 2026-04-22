@@ -7,7 +7,6 @@
 size = Vector2(49, 38)
 
 [node name="Nau  principal" type="CharacterBody2D" unique_id=932645570]
-position = Vector2(552, 574)
 script = ExtResource("1_tcn4t")
 
 [node name="Sprite_nau_principal" type="Sprite2D" parent="." unique_id=717402630]

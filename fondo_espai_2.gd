@@ -5,7 +5,7 @@ extends Sprite2D
 func _ready() -> void:
 	pass # Replace with function body.
 func _teleport() -> void:
-	position.y=-1413
+	position.y=-1410
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:

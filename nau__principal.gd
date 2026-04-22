@@ -10,3 +10,4 @@ func _process(delta: float) -> void:
 	direccio=Input.get_vector("esquerra", "dreta", "blabla", "bleble")
 	position+=velocitat*direccio.normalized()*delta
 	move_and_slide()
+func _shoot() -> void:

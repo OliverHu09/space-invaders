@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://cb1334ugpy1a1"]
+
+[ext_resource type="Script" uid="uid://b0shiv64juobt" path="res://nau__principal.gd" id="1_tcn4t"]
+[ext_resource type="Texture2D" uid="uid://cd5834bgu5sy6" path="res://nave png.png" id="2_voi7d"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8rqb2"]
+size = Vector2(49, 38)
+
+[node name="Nau  principal" type="CharacterBody2D" unique_id=932645570]
+position = Vector2(552, 574)
+script = ExtResource("1_tcn4t")
+
+[node name="Sprite_nau_principal" type="Sprite2D" parent="." unique_id=717402630]
+scale = Vector2(0.08, 0.08)
+texture = ExtResource("2_voi7d")
+
+[node name="Colisio_nau_principal" type="CollisionShape2D" parent="." unique_id=1948652637]
+position = Vector2(-1.5, 2)
+shape = SubResource("RectangleShape2D_8rqb2")

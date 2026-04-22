@@ -1,6 +1,6 @@
-[gd_scene format=3 uid="uid://cb1334ugpy1a1"]
+[gd_scene format=3 uid="uid://51jyyeuwicqb"]
 
-[ext_resource type="Script" uid="uid://b0shiv64juobt" path="res://nau__principal.gd" id="1_tcn4t"]
+[ext_resource type="Script" path="res://nau__principal.gd" id="1_tcn4t"]
 [ext_resource type="Texture2D" uid="uid://cd5834bgu5sy6" path="res://nave png.png" id="2_voi7d"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8rqb2"]

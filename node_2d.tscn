@@ -1,15 +1,10 @@
 [gd_scene format=3 uid="uid://bg2vw0cycop8r"]
 
-[ext_resource type="Script" uid="uid://d3udovrah6088" path="res://area_2d.gd" id="1_0e48y"]
-[ext_resource type="Texture2D" uid="uid://43amorwh4brn" path="res://icon.svg" id="1_wtcfe"]
 [ext_resource type="Texture2D" uid="uid://ce6gt521jfado" path="res://fondo negre.jpg" id="3_0hol4"]
 [ext_resource type="Script" path="res://fondo_espai_2.gd" id="3_q6r6c"]
 [ext_resource type="Script" uid="uid://cb42igqyqr6lp" path="res://fondo_espai_script.gd" id="4_q6r6c"]
 [ext_resource type="PackedScene" uid="uid://lsbnherpfog6" path="res://Limit.tscn" id="6_kdubu"]
 [ext_resource type="PackedScene" uid="uid://cwysekhj7dc4s" path="res://ovni_1.tscn" id="7_d21ai"]
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_0e48y"]
-size = Vector2(123, 124)
 
 [node name="Escena principal" type="Node2D" unique_id=2044328370]
 
@@ -25,17 +20,6 @@ scale = Vector2(2.431909, 3.3266907)
 texture = ExtResource("3_0hol4")
 script = ExtResource("3_q6r6c")
 
-[node name="Area2D" type="Area2D" parent="." unique_id=740781231]
-position = Vector2(676, 304)
-script = ExtResource("1_0e48y")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=515456833]
-position = Vector2(0.5, 0)
-shape = SubResource("RectangleShape2D_0e48y")
-
-[node name="Sprite2D" type="Sprite2D" parent="Area2D" unique_id=23752039]
-texture = ExtResource("1_wtcfe")
-
 [node name="Limit" parent="." unique_id=1004749942 instance=ExtResource("6_kdubu")]
 
 [node name="Limit2" parent="." unique_id=334599260 instance=ExtResource("6_kdubu")]
@@ -43,3 +27,15 @@ position = Vector2(1152, 0)
 
 [node name="Ovni 1" parent="." unique_id=38454462 instance=ExtResource("7_d21ai")]
 position = Vector2(36, 59)
+
+[node name="Ovni 2" parent="." unique_id=849273189 instance=ExtResource("7_d21ai")]
+position = Vector2(95, 59)
+
+[node name="Ovni 3" parent="." unique_id=774180926 instance=ExtResource("7_d21ai")]
+position = Vector2(162, 59)
+
+[node name="Ovni 4" parent="." unique_id=1126725296 instance=ExtResource("7_d21ai")]
+position = Vector2(221, 59)
+
+[node name="Ovni 5" parent="." unique_id=792111559 instance=ExtResource("7_d21ai")]
+position = Vector2(285, 59)

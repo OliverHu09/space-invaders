@@ -4,16 +4,21 @@
 [ext_resource type="Texture2D" uid="uid://c2pwgu7qjkmvh" path="res://pngkey.com-space-png-transparent-661008.png" id="2_sqtik"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lgped"]
-size = Vector2(489, 495)
+size = Vector2(93, 90)
 
 [node name="Ovni 1" type="Node2D" unique_id=38454462]
+scale = Vector2(0.5, 0.5)
 script = ExtResource("1_cl0hl")
 
 [node name="Area2D" type="Area2D" parent="." unique_id=849273189]
+scale = Vector2(0.5, 0.5)
 
 [node name="Sprite2D" type="Sprite2D" parent="Area2D" unique_id=1307238259]
+position = Vector2(1.5258789e-05, -7.1525574e-07)
+scale = Vector2(0.2, 0.2)
 texture = ExtResource("2_sqtik")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1206466093]
-position = Vector2(0.5, 1.5)
 shape = SubResource("RectangleShape2D_lgped")
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]

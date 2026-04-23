@@ -4,7 +4,7 @@
 
 [sub_resource type="SegmentShape2D" id="SegmentShape2D_8apfi"]
 a = Vector2(0, 648)
-b = Vector2(0, 0)
+b = Vector2(0, -635)
 
 [node name="Limit" type="Area2D" unique_id=1582664693]
 script = ExtResource("1_8pkwi")

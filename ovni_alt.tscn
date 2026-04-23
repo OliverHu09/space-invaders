@@ -1,19 +1,19 @@
-[gd_scene format=3 uid="uid://cwysekhj7dc4s"]
+[gd_scene format=3 uid="uid://daqb343ggprfh"]
 
-[ext_resource type="Script" uid="uid://1eup0cdkk05k" path="res://ovni.gd" id="1_cl0hl"]
-[ext_resource type="Texture2D" uid="uid://c2pwgu7qjkmvh" path="res://pngkey.com-space-png-transparent-661008.png" id="2_sqtik"]
+[ext_resource type="Script" uid="uid://1eup0cdkk05k" path="res://ovni_alt.gd" id="1_i0ecg"]
+[ext_resource type="Texture2D" uid="uid://c2pwgu7qjkmvh" path="res://pngkey.com-space-png-transparent-661008.png" id="2_by2tw"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lgped"]
 size = Vector2(93, 90)
 
-[node name="Ovni1" type="Area2D" unique_id=849273189]
+[node name="Ovni alt" type="Area2D" unique_id=849273189]
 scale = Vector2(0.5, 0.5)
-script = ExtResource("1_cl0hl")
+script = ExtResource("1_i0ecg")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1307238259]
 position = Vector2(1.5258789e-05, -7.1525574e-07)
 scale = Vector2(0.2, 0.2)
-texture = ExtResource("2_sqtik")
+texture = ExtResource("2_by2tw")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1206466093]
 shape = SubResource("RectangleShape2D_lgped")

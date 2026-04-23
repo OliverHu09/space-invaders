@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://mhmb422ad6nj"]
+
+[ext_resource type="PackedScene" uid="uid://b627semvcuhky" path="res://ovni_baix.tscn" id="1_ti2l5"]
+
+[node name="Conjunt d\'aliens" type="Node2D" unique_id=671854616]
+
+[node name="Ovni baix" parent="." unique_id=954270736 instance=ExtResource("1_ti2l5")]
+
+[node name="Ovni baix2" parent="." unique_id=1144312622 instance=ExtResource("1_ti2l5")]
+position = Vector2(58, 0)
+
+[node name="Ovni baix3" parent="." unique_id=148693563 instance=ExtResource("1_ti2l5")]
+position = Vector2(115, 0)
+
+[node name="Ovni baix4" parent="." unique_id=459598234 instance=ExtResource("1_ti2l5")]
+position = Vector2(174, 0)

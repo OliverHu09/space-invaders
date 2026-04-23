@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://biba8xg1q0t4b"]
+
+[ext_resource type="Script" uid="uid://bckklg1wvlbfq" path="res://ovni_2.gd" id="1_cqnyt"]
+[ext_resource type="Texture2D" uid="uid://claau8tow3tpy" path="res://alien blanc png.png" id="2_a50j3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1p4mq"]
+size = Vector2(51, 40)
+
+[node name="Ovni 2" type="Area2D" unique_id=1889732419]
+script = ExtResource("1_cqnyt")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=437336724]
+position = Vector2(-0.5, 1)
+shape = SubResource("RectangleShape2D_1p4mq")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=746846342]
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("2_a50j3")

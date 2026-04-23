@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://bgtuq51cx50a8"]
+
+[ext_resource type="Script" uid="uid://ch4xl287kajef" path="res://ovni_3.gd" id="1_pfmos"]
+[ext_resource type="Texture2D" uid="uid://dxun837soa8a" path="res://Space-Invaders-Alien-Transparent-Images.png" id="2_35nfu"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_s27us"]
+size = Vector2(52, 35)
+
+[node name="Ovni 3" type="Area2D" unique_id=954270736]
+script = ExtResource("1_pfmos")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=444980402]
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("2_35nfu")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=270684430]
+position = Vector2(0, 0.5)
+shape = SubResource("RectangleShape2D_s27us")

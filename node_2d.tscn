@@ -5,7 +5,6 @@
 [ext_resource type="Script" uid="uid://cb42igqyqr6lp" path="res://fondo_espai_script.gd" id="4_q6r6c"]
 [ext_resource type="PackedScene" uid="uid://51jyyeuwicqb" path="res://nau__principal.tscn" id="6_d21ai"]
 [ext_resource type="PackedScene" uid="uid://lsbnherpfog6" path="res://Limit.tscn" id="6_kdubu"]
-[ext_resource type="PackedScene" uid="uid://cwysekhj7dc4s" path="res://ovni_1.tscn" id="7_d21ai"]
 
 [node name="Escena principal" type="Node2D" unique_id=2044328370]
 
@@ -31,21 +30,6 @@ position = Vector2(1152, 0)
 
 [node name="Limit4" parent="." unique_id=1357742865 instance=ExtResource("6_kdubu")]
 position = Vector2(1152, -648)
-
-[node name="Ovni 1" parent="." unique_id=38454462 instance=ExtResource("7_d21ai")]
-position = Vector2(36, 59)
-
-[node name="Ovni 2" parent="." unique_id=849273189 instance=ExtResource("7_d21ai")]
-position = Vector2(95, 59)
-
-[node name="Ovni 3" parent="." unique_id=774180926 instance=ExtResource("7_d21ai")]
-position = Vector2(162, 59)
-
-[node name="Ovni 4" parent="." unique_id=1126725296 instance=ExtResource("7_d21ai")]
-position = Vector2(221, 59)
-
-[node name="Ovni 5" parent="." unique_id=792111559 instance=ExtResource("7_d21ai")]
-position = Vector2(285, 59)
 
 [node name="Bales" type="Node2D" parent="." unique_id=301111236]
 unique_name_in_owner = true

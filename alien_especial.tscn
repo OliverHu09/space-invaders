@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://sxkmxxt6602g"]
+
+[ext_resource type="Script" uid="uid://b1cjurx5r8kns" path="res://alien_especial.gd" id="1_tsccb"]
+[ext_resource type="Texture2D" uid="uid://bdkdsi3n1aq0y" path="res://Space-Invaders-Alien-PNG-Image-with-Transparent-Background.png" id="2_ccvp8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_m5wmp"]
+size = Vector2(56, 23)
+
+[node name="Alien especial" type="Area2D" unique_id=2130954575]
+script = ExtResource("1_tsccb")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=27413706]
+position = Vector2(0, 1.5)
+shape = SubResource("RectangleShape2D_m5wmp")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1225875945]
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("2_ccvp8")

@@ -5,6 +5,7 @@
 [ext_resource type="Script" uid="uid://cb42igqyqr6lp" path="res://fondo_espai_script.gd" id="4_q6r6c"]
 [ext_resource type="PackedScene" uid="uid://51jyyeuwicqb" path="res://nau__principal.tscn" id="6_d21ai"]
 [ext_resource type="PackedScene" uid="uid://lsbnherpfog6" path="res://Limit.tscn" id="6_kdubu"]
+[ext_resource type="PackedScene" uid="uid://mhmb422ad6nj" path="res://conjunt_d'aliens.tscn" id="6_rj586"]
 
 [node name="Escena principal" type="Node2D" unique_id=2044328370]
 
@@ -30,3 +31,5 @@ unique_name_in_owner = true
 
 [node name="Nau  principal" parent="." unique_id=932645570 instance=ExtResource("6_d21ai")]
 position = Vector2(497, 576)
+
+[node name="Conjunt d\'aliens" parent="." unique_id=671854616 instance=ExtResource("6_rj586")]

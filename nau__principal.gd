@@ -19,6 +19,7 @@ func _process(delta: float) -> void:
 		direccio=Vector2(0,0)
 	position+=velocitat*direccio.normalized()*delta
 	move_and_slide()
+	
 func shoot():
 	var b: Area2D = Area_bala.instantiate()
 	%Bales.add_child(b)

@@ -7,6 +7,7 @@
 size = Vector2(32, 64)
 
 [node name="Bala" type="Area2D" unique_id=1483733074]
+collision_layer = 8
 script = ExtResource("1_pmjsf")
 
 [node name="Sprite_bala" type="Sprite2D" parent="." unique_id=1630613742]

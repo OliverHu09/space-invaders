@@ -19,6 +19,7 @@ func frontera():
 		direccio=Vector2.RIGHT
 	position += Vector2(0,50)
 
-func _on_area_2d_area_entered(_area: Area2D) -> void:
+func _on_area_2d_area_entered(area: Area2D) -> void:
+	print('tocat')
 	queue_free()
 	pass # Replace with function body.

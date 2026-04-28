@@ -9,8 +9,29 @@
 [node name="Ovni baix2" parent="." unique_id=1144312622 instance=ExtResource("1_ti2l5")]
 position = Vector2(58, 0)
 
+[node name="Ovni baix11" parent="." unique_id=181427146 instance=ExtResource("1_ti2l5")]
+position = Vector2(528, 0)
+
+[node name="Ovni baix6" parent="." unique_id=1962798541 instance=ExtResource("1_ti2l5")]
+position = Vector2(354, 0)
+
 [node name="Ovni baix3" parent="." unique_id=148693563 instance=ExtResource("1_ti2l5")]
 position = Vector2(115, 0)
 
+[node name="Ovni baix10" parent="." unique_id=1937134907 instance=ExtResource("1_ti2l5")]
+position = Vector2(586, 0)
+
+[node name="Ovni baix7" parent="." unique_id=2030069034 instance=ExtResource("1_ti2l5")]
+position = Vector2(412, 0)
+
 [node name="Ovni baix4" parent="." unique_id=459598234 instance=ExtResource("1_ti2l5")]
 position = Vector2(174, 0)
+
+[node name="Ovni baix9" parent="." unique_id=73028090 instance=ExtResource("1_ti2l5")]
+position = Vector2(469, 0)
+
+[node name="Ovni baix8" parent="." unique_id=1007281477 instance=ExtResource("1_ti2l5")]
+position = Vector2(295, 0)
+
+[node name="Ovni baix5" parent="." unique_id=744972865 instance=ExtResource("1_ti2l5")]
+position = Vector2(235, 0)

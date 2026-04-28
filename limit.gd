@@ -9,6 +9,5 @@ func _process(delta: float) -> void:
 	pass
 
 func _on_area_entered(area: Area2D) -> void:
-	print(area.name)
 	area.frontera()
 	pass # Replace with function body.

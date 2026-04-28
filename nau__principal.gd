@@ -11,15 +11,10 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	if (Input.is_action_just_pressed("dispar")):
 		shoot()
-	if (Input.is_action_just_pressed("dreta")):
-		direccio=Vector2.RIGHT
-	if (Input.is_action_just_pressed("esquerra")):
-		direccio=Vector2.LEFT
-	if (Input.is_action_just_released("esquerra") or Input.is_action_just_released("dreta")):
-		direccio=Vector2(0,0)
+	direccio=Input.get_vector("esquerra", "dreta", "dalt", "abaix")
 	position+=velocitat*direccio.normalized()*delta
 	move_and_slide()
-	
+
 func shoot():
 	var b: Area2D = Area_bala.instantiate()
 	%Bales.add_child(b)

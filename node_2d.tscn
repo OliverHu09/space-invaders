@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://51jyyeuwicqb" path="res://nau__principal.tscn" id="6_d21ai"]
 [ext_resource type="PackedScene" uid="uid://lsbnherpfog6" path="res://Limit.tscn" id="6_kdubu"]
 [ext_resource type="PackedScene" uid="uid://mhmb422ad6nj" path="res://conjunt_d'aliens.tscn" id="6_rj586"]
+[ext_resource type="PackedScene" uid="uid://clc127mqkpfmw" path="res://barrera.tscn" id="7_d21ai"]
 
 [node name="Escena principal" type="Node2D" unique_id=2044328370]
 
@@ -33,3 +34,6 @@ unique_name_in_owner = true
 position = Vector2(497, 576)
 
 [node name="Conjunt d\'aliens" parent="." unique_id=671854616 instance=ExtResource("6_rj586")]
+
+[node name="Barrera" parent="." unique_id=1220231289 instance=ExtResource("7_d21ai")]
+position = Vector2(771, 569)

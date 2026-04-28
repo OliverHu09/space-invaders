@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://dcbcjyi8fbluk" path="res://disparo png.webp" id="1_w65f4"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pmjsf"]
-size = Vector2(32, 64)
+size = Vector2(16, 32)
 
 [node name="Bala" type="Area2D" unique_id=1483733074]
 collision_layer = 8
@@ -12,9 +12,9 @@ script = ExtResource("1_pmjsf")
 
 [node name="Sprite_bala" type="Sprite2D" parent="." unique_id=1630613742]
 position = Vector2(0, -1.0842022e-19)
-scale = Vector2(0.4, 0.4)
+scale = Vector2(0.2, 0.2)
 texture = ExtResource("1_w65f4")
 
 [node name="Collision_bala" type="CollisionShape2D" parent="." unique_id=1572045265]
-position = Vector2(0, -16)
+position = Vector2(0, -8)
 shape = SubResource("RectangleShape2D_pmjsf")

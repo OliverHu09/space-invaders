@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://k7n4g4ttmoh6"]
+
+[ext_resource type="Script" uid="uid://bvfbw2ilochrh" path="res://limit_bales.gd" id="1_3rtjd"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_v6vav"]
+size = Vector2(1332, 11)
+
+[node name="Limit_bales" type="Area2D" unique_id=146008902]
+collision_layer = 2
+collision_mask = 2
+script = ExtResource("1_3rtjd")
+
+[node name="Collision_limit_bales" type="CollisionShape2D" parent="." unique_id=792650082]
+shape = SubResource("RectangleShape2D_v6vav")

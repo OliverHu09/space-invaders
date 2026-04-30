@@ -36,4 +36,4 @@ position = Vector2(497, 576)
 [node name="Conjunt d\'aliens" parent="." unique_id=671854616 instance=ExtResource("6_rj586")]
 
 [node name="Barrera" parent="." unique_id=1220231289 instance=ExtResource("7_d21ai")]
-position = Vector2(771, 569)
+position = Vector2(493, 450)

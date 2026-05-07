@@ -1,22 +1,23 @@
 [gd_scene format=3 uid="uid://d24ngeatxg07c"]
 
 [ext_resource type="Script" uid="uid://cen5gxlc36d4t" path="res://area_bala.gd" id="1_pmjsf"]
-[ext_resource type="Texture2D" uid="uid://dcbcjyi8fbluk" path="res://disparo png.webp" id="1_w65f4"]
+[ext_resource type="Texture2D" uid="uid://htha377s7fom" path="res://misil_png.png" id="2_pmjsf"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pmjsf"]
-size = Vector2(16, 32)
+size = Vector2(12, 18)
 
 [node name="Bala" type="Area2D" unique_id=1483733074]
 collision_layer = 8
 script = ExtResource("1_pmjsf")
 
 [node name="Sprite_bala" type="Sprite2D" parent="." unique_id=1630613742]
-position = Vector2(0, -1.0842022e-19)
-scale = Vector2(0.2, 0.2)
-texture = ExtResource("1_w65f4")
+position = Vector2(2.1316282e-14, -5.9999995)
+rotation = -1.5707964
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("2_pmjsf")
 
 [node name="Collision_bala" type="CollisionShape2D" parent="." unique_id=1572045265]
-position = Vector2(0, -8)
+position = Vector2(0, -10)
 shape = SubResource("RectangleShape2D_pmjsf")
 
 [connection signal="area_entered" from="." to="." method="_on_area_entered"]

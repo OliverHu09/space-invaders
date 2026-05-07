@@ -7,8 +7,8 @@
 size = Vector2(64, 48)
 
 [node name="Barrera" type="StaticBody2D" unique_id=1220231289]
-collision_layer = 9
-collision_mask = 9
+collision_layer = 255
+collision_mask = 255
 script = ExtResource("1_x4x2i")
 
 [node name="Sprite_barrera" type="Sprite2D" parent="." unique_id=1457080941]

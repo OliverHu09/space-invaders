@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://bsmhmbgjlvxs"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_8wpt0"]
+
+[node name="Limit_nau" type="StaticBody2D" unique_id=818702684]
+
+[node name="Collision_limit_nau" type="CollisionShape2D" parent="." unique_id=1750089551]
+shape = SubResource("WorldBoundaryShape2D_8wpt0")

@@ -11,6 +11,10 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	#position+= direccio*velocitat*delta
 	pass
-
+	
 func _on_area_2d_area_entered(_area: Area2D) -> void:
 	queue_free()
+
+func _on_body_entered(body: Node2D) -> void:
+	body.die()
+	pass # Replace with function body.

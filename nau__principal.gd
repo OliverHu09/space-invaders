@@ -2,6 +2,7 @@ extends CharacterBody2D
 
 @export var Area_bala : PackedScene
 
+var vides = 3
 var direccio : Vector2=Vector2(0, 0)
 var velocitat: float=300
 # Called when the node enters the scene tree for the first time.
@@ -15,7 +16,14 @@ func _process(delta: float) -> void:
 	position+=velocitat*direccio.normalized()*delta
 	move_and_slide()
 
+
 func shoot():
 	var b: Area2D = Area_bala.instantiate()
 	%Bales.add_child(b)
 	b.global_position = global_position
+
+func die():
+	if (vides==0):
+		queue_free()
+	else:
+		vides-=1

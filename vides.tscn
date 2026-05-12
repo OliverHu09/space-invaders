@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://csrdmxb7anagv"]
+
+[ext_resource type="Script" uid="uid://f6lyahjye8n0" path="res://vides.gd" id="1_v4k7o"]
+
+[node name="Vides" type="Label" unique_id=938003190]
+offset_right = 40.0
+offset_bottom = 23.0
+script = ExtResource("1_v4k7o")

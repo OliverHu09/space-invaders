@@ -9,6 +9,6 @@ func _teleport() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	position+=5*Vector2(0, 1)
+	position+=3*Vector2(0, 1)
 	if position.y>1340:
 		_teleport()

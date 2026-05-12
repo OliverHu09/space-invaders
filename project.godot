@@ -39,6 +39,7 @@ dispar={
 2d_physics/layer_2="Jugador"
 2d_physics/layer_3="Límits"
 2d_physics/layer_4="Projectils"
+2d_physics/layer_5="Barreres"
 
 [physics]
 

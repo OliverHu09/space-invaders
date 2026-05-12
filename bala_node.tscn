@@ -8,6 +8,7 @@ size = Vector2(12, 18)
 
 [node name="Bala" type="Area2D" unique_id=1483733074]
 collision_layer = 8
+collision_mask = 17
 script = ExtResource("1_pmjsf")
 
 [node name="Sprite_bala" type="Sprite2D" parent="." unique_id=1630613742]
@@ -21,3 +22,4 @@ position = Vector2(0, -10)
 shape = SubResource("RectangleShape2D_pmjsf")
 
 [connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

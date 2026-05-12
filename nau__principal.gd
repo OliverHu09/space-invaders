@@ -11,7 +11,7 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	if (Input.is_action_just_pressed("dispar")):
 		shoot()
-	direccio=Input.get_vector("esquerra", "dreta", "dalt", "abaix")
+	direccio.x=Input.get_axis("esquerra", "dreta")
 	position+=velocitat*direccio.normalized()*delta
 	move_and_slide()
 

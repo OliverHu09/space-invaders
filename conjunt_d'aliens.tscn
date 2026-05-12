@@ -1,8 +1,21 @@
 [gd_scene format=3 uid="uid://mhmb422ad6nj"]
 
 [ext_resource type="PackedScene" uid="uid://b627semvcuhky" path="res://ovni_baix.tscn" id="1_ti2l5"]
+[ext_resource type="Script" uid="uid://b2mqa62no82mv" path="res://area_de_conjunt_d'aliens.gd" id="2_le6l2"]
+[ext_resource type="PackedScene" uid="uid://c2daw4l2hjrx7" path="res://ovni_mitjà.tscn" id="2_mefk8"]
+[ext_resource type="PackedScene" uid="uid://daqb343ggprfh" path="res://ovni_alt.tscn" id="3_tm043"]
 
-[node name="Conjunt d\'aliens" type="Node2D" unique_id=671854616]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qtvlv"]
+size = Vector2(718, 329)
+
+[node name="area de conjunt d\'aliens" type="Area2D" unique_id=666241348]
+collision_layer = 16
+collision_mask = 0
+script = ExtResource("2_le6l2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=580959465]
+position = Vector2(336, -146.5)
+shape = SubResource("RectangleShape2D_qtvlv")
 
 [node name="Ovni baix" parent="." unique_id=954270736 instance=ExtResource("1_ti2l5")]
 
@@ -35,3 +48,168 @@ position = Vector2(333, 0)
 
 [node name="Ovni baix5" parent="." unique_id=744972865 instance=ExtResource("1_ti2l5")]
 position = Vector2(266, 0)
+
+[node name="Ovni baix12" parent="." unique_id=1260746754 instance=ExtResource("1_ti2l5")]
+position = Vector2(0, -51)
+
+[node name="Ovni baix13" parent="." unique_id=366632220 instance=ExtResource("1_ti2l5")]
+position = Vector2(67, -51)
+
+[node name="Ovni baix14" parent="." unique_id=1316853648 instance=ExtResource("1_ti2l5")]
+position = Vector2(602, -51)
+
+[node name="Ovni baix15" parent="." unique_id=53356177 instance=ExtResource("1_ti2l5")]
+position = Vector2(400, -51)
+
+[node name="Ovni baix16" parent="." unique_id=1116071275 instance=ExtResource("1_ti2l5")]
+position = Vector2(133, -51)
+
+[node name="Ovni baix17" parent="." unique_id=1843239774 instance=ExtResource("1_ti2l5")]
+position = Vector2(669, -51)
+
+[node name="Ovni baix18" parent="." unique_id=1806429399 instance=ExtResource("1_ti2l5")]
+position = Vector2(465, -51)
+
+[node name="Ovni baix19" parent="." unique_id=565806135 instance=ExtResource("1_ti2l5")]
+position = Vector2(199, -51)
+
+[node name="Ovni baix20" parent="." unique_id=489690821 instance=ExtResource("1_ti2l5")]
+position = Vector2(534, -51)
+
+[node name="Ovni baix21" parent="." unique_id=479866205 instance=ExtResource("1_ti2l5")]
+position = Vector2(333, -51)
+
+[node name="Ovni baix22" parent="." unique_id=1916541445 instance=ExtResource("1_ti2l5")]
+position = Vector2(266, -51)
+
+[node name="Ovni mitjà" parent="." unique_id=1889732419 instance=ExtResource("2_mefk8")]
+position = Vector2(0, -104)
+
+[node name="Ovni mitjà2" parent="." unique_id=322917676 instance=ExtResource("2_mefk8")]
+position = Vector2(69, -104)
+
+[node name="Ovni mitjà3" parent="." unique_id=83342956 instance=ExtResource("2_mefk8")]
+position = Vector2(134, -103)
+
+[node name="Ovni mitjà4" parent="." unique_id=1555061296 instance=ExtResource("2_mefk8")]
+position = Vector2(203, -103)
+
+[node name="Ovni mitjà5" parent="." unique_id=1234918590 instance=ExtResource("2_mefk8")]
+position = Vector2(267, -103)
+
+[node name="Ovni mitjà6" parent="." unique_id=874321658 instance=ExtResource("2_mefk8")]
+position = Vector2(336, -103)
+
+[node name="Ovni mitjà7" parent="." unique_id=513530962 instance=ExtResource("2_mefk8")]
+position = Vector2(401, -102)
+
+[node name="Ovni mitjà8" parent="." unique_id=741899697 instance=ExtResource("2_mefk8")]
+position = Vector2(470, -102)
+
+[node name="Ovni mitjà9" parent="." unique_id=1161600935 instance=ExtResource("2_mefk8")]
+position = Vector2(537, -105)
+
+[node name="Ovni mitjà10" parent="." unique_id=1769398338 instance=ExtResource("2_mefk8")]
+position = Vector2(606, -105)
+
+[node name="Ovni mitjà11" parent="." unique_id=1538773818 instance=ExtResource("2_mefk8")]
+position = Vector2(671, -104)
+
+[node name="Ovni mitjà12" parent="." unique_id=1337236545 instance=ExtResource("2_mefk8")]
+position = Vector2(0, -160)
+
+[node name="Ovni mitjà13" parent="." unique_id=2056394651 instance=ExtResource("2_mefk8")]
+position = Vector2(69, -160)
+
+[node name="Ovni mitjà14" parent="." unique_id=1960945098 instance=ExtResource("2_mefk8")]
+position = Vector2(134, -159)
+
+[node name="Ovni mitjà15" parent="." unique_id=1226941462 instance=ExtResource("2_mefk8")]
+position = Vector2(203, -159)
+
+[node name="Ovni mitjà16" parent="." unique_id=1055573962 instance=ExtResource("2_mefk8")]
+position = Vector2(267, -159)
+
+[node name="Ovni mitjà17" parent="." unique_id=686461753 instance=ExtResource("2_mefk8")]
+position = Vector2(336, -159)
+
+[node name="Ovni mitjà18" parent="." unique_id=497804110 instance=ExtResource("2_mefk8")]
+position = Vector2(401, -158)
+
+[node name="Ovni mitjà19" parent="." unique_id=1374103370 instance=ExtResource("2_mefk8")]
+position = Vector2(470, -158)
+
+[node name="Ovni mitjà20" parent="." unique_id=1310763518 instance=ExtResource("2_mefk8")]
+position = Vector2(537, -161)
+
+[node name="Ovni mitjà21" parent="." unique_id=597456603 instance=ExtResource("2_mefk8")]
+position = Vector2(606, -161)
+
+[node name="Ovni mitjà22" parent="." unique_id=1750378782 instance=ExtResource("2_mefk8")]
+position = Vector2(671, -160)
+
+[node name="Ovni alt" parent="." unique_id=849273189 instance=ExtResource("3_tm043")]
+position = Vector2(1, -217)
+
+[node name="Ovni alt2" parent="." unique_id=2058470467 instance=ExtResource("3_tm043")]
+position = Vector2(69, -217)
+
+[node name="Ovni alt3" parent="." unique_id=30033985 instance=ExtResource("3_tm043")]
+position = Vector2(133, -218)
+
+[node name="Ovni alt4" parent="." unique_id=1846794242 instance=ExtResource("3_tm043")]
+position = Vector2(201, -218)
+
+[node name="Ovni alt5" parent="." unique_id=2085386140 instance=ExtResource("3_tm043")]
+position = Vector2(269, -217)
+
+[node name="Ovni alt6" parent="." unique_id=1632815984 instance=ExtResource("3_tm043")]
+position = Vector2(337, -217)
+
+[node name="Ovni alt7" parent="." unique_id=2045717217 instance=ExtResource("3_tm043")]
+position = Vector2(401, -218)
+
+[node name="Ovni alt8" parent="." unique_id=2135857685 instance=ExtResource("3_tm043")]
+position = Vector2(469, -218)
+
+[node name="Ovni alt9" parent="." unique_id=611212018 instance=ExtResource("3_tm043")]
+position = Vector2(536, -219)
+
+[node name="Ovni alt10" parent="." unique_id=1990887313 instance=ExtResource("3_tm043")]
+position = Vector2(600, -220)
+
+[node name="Ovni alt11" parent="." unique_id=1695270845 instance=ExtResource("3_tm043")]
+position = Vector2(668, -220)
+
+[node name="Ovni alt12" parent="." unique_id=870228457 instance=ExtResource("3_tm043")]
+position = Vector2(0, -284)
+
+[node name="Ovni alt13" parent="." unique_id=2065363319 instance=ExtResource("3_tm043")]
+position = Vector2(68, -284)
+
+[node name="Ovni alt14" parent="." unique_id=784033072 instance=ExtResource("3_tm043")]
+position = Vector2(132, -285)
+
+[node name="Ovni alt15" parent="." unique_id=356613413 instance=ExtResource("3_tm043")]
+position = Vector2(200, -285)
+
+[node name="Ovni alt16" parent="." unique_id=2011982739 instance=ExtResource("3_tm043")]
+position = Vector2(268, -284)
+
+[node name="Ovni alt17" parent="." unique_id=1922897079 instance=ExtResource("3_tm043")]
+position = Vector2(336, -284)
+
+[node name="Ovni alt18" parent="." unique_id=975771312 instance=ExtResource("3_tm043")]
+position = Vector2(400, -285)
+
+[node name="Ovni alt19" parent="." unique_id=10906188 instance=ExtResource("3_tm043")]
+position = Vector2(468, -285)
+
+[node name="Ovni alt20" parent="." unique_id=27019702 instance=ExtResource("3_tm043")]
+position = Vector2(535, -286)
+
+[node name="Ovni alt21" parent="." unique_id=146634765 instance=ExtResource("3_tm043")]
+position = Vector2(599, -287)
+
+[node name="Ovni alt22" parent="." unique_id=108932861 instance=ExtResource("3_tm043")]
+position = Vector2(667, -287)

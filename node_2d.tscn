@@ -35,6 +35,7 @@ unique_name_in_owner = true
 position = Vector2(497, 576)
 
 [node name="Conjunt d\'aliens" parent="." unique_id=671854616 instance=ExtResource("6_rj586")]
+position = Vector2(35, -27)
 
 [node name="Limit_nau" parent="." unique_id=818702684 instance=ExtResource("7_rj586")]
 position = Vector2(-2, 174)

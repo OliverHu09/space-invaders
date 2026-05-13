@@ -1,12 +1,12 @@
 [gd_scene format=3 uid="uid://crk2mjpl76254"]
 
-[ext_resource type="Script" uid="uid://cen5gxlc36d4t" path="res://area_bala.gd" id="1_aflxk"]
+[ext_resource type="Script" uid="uid://ckd4kd02g266w" path="res://bala_alien_node.gd" id="1_aflxk"]
 [ext_resource type="Texture2D" uid="uid://b7w1tbo8ncr0v" path="res://Blanc.png" id="2_aflxk"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pmjsf"]
 size = Vector2(6, 18)
 
-[node name="Bala" type="Area2D" unique_id=1483733074]
+[node name="Bala alien" type="Area2D" unique_id=1483733074]
 collision_layer = 8
 collision_mask = 17
 script = ExtResource("1_aflxk")
@@ -19,5 +19,4 @@ texture = ExtResource("2_aflxk")
 [node name="Collision_bala" type="CollisionShape2D" parent="." unique_id=1572045265]
 shape = SubResource("RectangleShape2D_pmjsf")
 
-[connection signal="area_entered" from="." to="." method="_on_area_entered"]
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

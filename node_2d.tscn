@@ -29,6 +29,9 @@ position = Vector2(23, 0)
 [node name="Limit2" parent="." unique_id=334599260 instance=ExtResource("6_kdubu")]
 position = Vector2(1120, 0)
 
+[node name="Bales aliens" type="Node2D" parent="." unique_id=805699152]
+unique_name_in_owner = true
+
 [node name="Bales" type="Node2D" parent="." unique_id=301111236]
 unique_name_in_owner = true
 

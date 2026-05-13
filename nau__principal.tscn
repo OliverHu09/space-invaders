@@ -8,6 +8,7 @@
 size = Vector2(49, 38)
 
 [node name="Nau  principal" type="CharacterBody2D" unique_id=932645570]
+collision_mask = 65
 script = ExtResource("1_tcn4t")
 Area_bala = ExtResource("2_8rqb2")
 

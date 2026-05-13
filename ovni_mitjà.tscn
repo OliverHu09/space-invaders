@@ -7,7 +7,7 @@
 size = Vector2(51, 40)
 
 [node name="Ovni mitjà" type="Area2D" unique_id=1889732419]
-collision_mask = 10
+collision_mask = 74
 script = ExtResource("1_tdgme")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=746846342]

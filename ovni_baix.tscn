@@ -7,7 +7,7 @@
 size = Vector2(52, 35)
 
 [node name="Ovni baix" type="Area2D" unique_id=954270736]
-collision_mask = 10
+collision_mask = 74
 script = ExtResource("1_07cbj")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=444980402]

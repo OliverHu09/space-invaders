@@ -46,5 +46,17 @@ rotation = 1.5707964
 position = Vector2(1154, 269)
 rotation = 4.712389
 
+[node name="Barrera5" parent="." unique_id=1402040959 instance=ExtResource("7_d21ai")]
+position = Vector2(960, 450)
+
+[node name="Barrera4" parent="." unique_id=1788309511 instance=ExtResource("7_d21ai")]
+position = Vector2(768, 450)
+
+[node name="Barrera3" parent="." unique_id=991132740 instance=ExtResource("7_d21ai")]
+position = Vector2(576, 450)
+
+[node name="Barrera2" parent="." unique_id=1997840725 instance=ExtResource("7_d21ai")]
+position = Vector2(384, 450)
+
 [node name="Barrera" parent="." unique_id=1220231289 instance=ExtResource("7_d21ai")]
-position = Vector2(493, 450)
+position = Vector2(192, 450)

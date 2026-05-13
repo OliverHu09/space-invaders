@@ -1,6 +1,6 @@
 extends Area2D
 
-var speed = 750
+var speed = 450
 var viu = true
 func _ready() -> void:
 	add_to_group("projectils")

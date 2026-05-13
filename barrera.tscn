@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://clc127mqkpfmw"]
 
 [ext_resource type="Script" uid="uid://cf3hsbycp3ujh" path="res://barrera.gd" id="1_x4x2i"]
-[ext_resource type="Texture2D" uid="uid://43amorwh4brn" path="res://icon.svg" id="2_nuyyu"]
+[ext_resource type="Texture2D" uid="uid://bgkv3iuse8q82" path="res://barreruita.jpeg" id="2_x4x2i"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ud68h"]
 size = Vector2(64, 48)
@@ -12,8 +12,9 @@ collision_mask = 8
 script = ExtResource("1_x4x2i")
 
 [node name="Sprite_barrera" type="Sprite2D" parent="." unique_id=1457080941]
-scale = Vector2(0.49609402, 0.3671876)
-texture = ExtResource("2_nuyyu")
+position = Vector2(7.1525574e-07, 0)
+scale = Vector2(0.16666667, 0.16666666)
+texture = ExtResource("2_x4x2i")
 
 [node name="Collision_barrera" type="CollisionShape2D" parent="." unique_id=1022157511]
 shape = SubResource("RectangleShape2D_ud68h")

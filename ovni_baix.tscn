@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://ch4xl287kajef" path="res://ovni_baix.gd" id="1_07cbj"]
 [ext_resource type="Texture2D" uid="uid://dxun837soa8a" path="res://Space-Invaders-Alien-Transparent-Images.png" id="2_da802"]
+[ext_resource type="PackedScene" uid="uid://crk2mjpl76254" path="res://bala_alien_node.tscn" id="2_hg1va"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_s27us"]
 size = Vector2(52, 35)
@@ -9,6 +10,7 @@ size = Vector2(52, 35)
 [node name="Ovni baix" type="Area2D" unique_id=954270736]
 collision_mask = 74
 script = ExtResource("1_07cbj")
+bala_alien_node = ExtResource("2_hg1va")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=444980402]
 scale = Vector2(0.1, 0.1)
@@ -18,5 +20,8 @@ texture = ExtResource("2_da802")
 position = Vector2(0, 0.5)
 shape = SubResource("RectangleShape2D_s27us")
 
+[node name="Timer" type="Timer" parent="." unique_id=1104228642]
+
 [connection signal="area_entered" from="." to="." method="_on_area_2d_area_entered"]
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

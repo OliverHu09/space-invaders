@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://ce6gt521jfado" path="res://fondo negre.jpg" id="3_0hol4"]
 [ext_resource type="Script" uid="uid://f1p5qlohot3v" path="res://fondo_espai_2.gd" id="3_q6r6c"]
 [ext_resource type="Script" uid="uid://cb42igqyqr6lp" path="res://fondo_espai_script.gd" id="4_q6r6c"]
+[ext_resource type="Script" uid="uid://bftxg8s0ivu7c" path="res://bales.gd" id="5_4d7sh"]
 [ext_resource type="PackedScene" uid="uid://51jyyeuwicqb" path="res://nau__principal.tscn" id="6_d21ai"]
 [ext_resource type="PackedScene" uid="uid://lsbnherpfog6" path="res://Limit.tscn" id="6_kdubu"]
 [ext_resource type="PackedScene" uid="uid://mhmb422ad6nj" path="res://conjunt_d'aliens.tscn" id="6_rj586"]
@@ -29,11 +30,9 @@ position = Vector2(23, 0)
 [node name="Limit2" parent="." unique_id=334599260 instance=ExtResource("6_kdubu")]
 position = Vector2(1120, 0)
 
-[node name="Bales aliens" type="Node2D" parent="." unique_id=805699152]
-unique_name_in_owner = true
-
 [node name="Bales" type="Node2D" parent="." unique_id=301111236]
 unique_name_in_owner = true
+script = ExtResource("5_4d7sh")
 
 [node name="Nau  principal" parent="." unique_id=932645570 instance=ExtResource("6_d21ai")]
 position = Vector2(497, 576)

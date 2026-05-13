@@ -24,9 +24,10 @@ texture = ExtResource("3_0hol4")
 script = ExtResource("3_q6r6c")
 
 [node name="Limit" parent="." unique_id=1004749942 instance=ExtResource("6_kdubu")]
+position = Vector2(23, 0)
 
 [node name="Limit2" parent="." unique_id=334599260 instance=ExtResource("6_kdubu")]
-position = Vector2(1152, 0)
+position = Vector2(1120, 0)
 
 [node name="Bales" type="Node2D" parent="." unique_id=301111236]
 unique_name_in_owner = true
@@ -35,7 +36,7 @@ unique_name_in_owner = true
 position = Vector2(497, 576)
 
 [node name="Conjunt d\'aliens" parent="." unique_id=671854616 instance=ExtResource("6_rj586")]
-position = Vector2(35, -27)
+position = Vector2(85, -25)
 
 [node name="Limit_nau" parent="." unique_id=818702684 instance=ExtResource("7_rj586")]
 position = Vector2(-2, 174)

@@ -3,7 +3,7 @@ extends CharacterBody2D
 @export var Area_bala : PackedScene
 @export var bullet : Area2D
 @onready var player = $Bala
-var property = player.viu
+
 var primer = false
 var vides = 3
 var direccio : Vector2=Vector2(0, 0)

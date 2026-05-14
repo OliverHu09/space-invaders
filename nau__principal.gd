@@ -3,13 +3,10 @@ extends CharacterBody2D
 @export var Area_bala : PackedScene
 @export var bullet : Area2D
 @onready var player = $Bala
-<<<<<<< Updated upstream
 
-var primer = false
-=======
+
 @onready var general = $Varglobals
 var primer = general.primer
->>>>>>> Stashed changes
 var vides = 3
 var direccio : Vector2=Vector2(0, 0)
 var velocitat: float=300

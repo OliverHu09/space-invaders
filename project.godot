@@ -17,7 +17,11 @@ config/icon="res://icon.svg"
 
 [autoload]
 
+<<<<<<< Updated upstream
 Global="*uid://w6fb3kee1dxu"
+=======
+Varglobals="*uid://dma170ri25dcw"
+>>>>>>> Stashed changes
 
 [input]
 

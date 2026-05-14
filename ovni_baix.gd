@@ -24,6 +24,6 @@ func _on_body_entered(body: Node2D) -> void:
 
 func _on_timer_timeout() -> void:
 	var b: Area2D = bala_alien_node.instantiate()
-	if is_instance_valid(Global.Bales):
-		Global.Bales.add_child(b)
+	if is_instance_valid(Varglobals.Bales):
+		Varglobals.Bales.add_child(b)
 	b.global_position = global_position

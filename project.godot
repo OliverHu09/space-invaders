@@ -17,8 +17,7 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-Global="*uid://w6fb3kee1dxu"
-<<<<<<<UpdatedupstreamGlobal="*uid://w6fb3kee1dxu"
+Varglobals="*uid://bmr1qjo1535w8"
 
 [global_group]
 

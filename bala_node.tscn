@@ -6,9 +6,9 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pmjsf"]
 size = Vector2(12, 18)
 
-[node name="Bala" type="Area2D" unique_id=1483733074]
+[node name="Bala" type="Area2D" unique_id=1483733074 groups=["projectils"]]
 collision_layer = 8
-collision_mask = 17
+collision_mask = 25
 script = ExtResource("1_pmjsf")
 
 [node name="Sprite_bala" type="Sprite2D" parent="." unique_id=1630613742]

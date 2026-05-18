@@ -5,7 +5,6 @@ var viu = true
 func _ready() -> void:
 	add_to_group("projectils")
 	pass
-	
 func _physics_process(delta: float) -> void:
 	position += speed * Vector2(0, -1) * delta
 	if(position.y<0):

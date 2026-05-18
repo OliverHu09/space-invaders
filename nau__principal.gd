@@ -30,7 +30,7 @@ func shoot():
 			Varglobals.Bales.add_child(b)
 			b.global_position = global_position + Vector2(0, -30)
 			cooldownTimer.start()
-		
+			
 func die():
 	vides -= 1
 	actualitzar_vides_ui()

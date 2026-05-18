@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://mhmb422ad6nj" path="res://conjunt_d'aliens.tscn" id="6_rj586"]
 [ext_resource type="PackedScene" uid="uid://clc127mqkpfmw" path="res://barrera.tscn" id="7_d21ai"]
 [ext_resource type="PackedScene" uid="uid://bsmhmbgjlvxs" path="res://limit_nau.tscn" id="7_rj586"]
+[ext_resource type="PackedScene" uid="uid://csrdmxb7anagv" path="res://vides.tscn" id="8_rj586"]
 
 [node name="Escena principal" type="Node2D" unique_id=2044328370]
 
@@ -54,3 +55,9 @@ position = Vector2(384, 450)
 
 [node name="Barrera" parent="." unique_id=1220231289 instance=ExtResource("7_d21ai")]
 position = Vector2(192, 450)
+
+[node name="Vides" parent="." unique_id=938003190 instance=ExtResource("8_rj586")]
+offset_left = 1010.0
+offset_top = 598.0
+offset_right = 1081.0
+offset_bottom = 623.0

@@ -25,6 +25,9 @@ barreres=""
 nau=""
 bales_enemigas="balas enemigas"
 vides_label=""
+projectils=""
+enemics=""
+jugador=""
 
 [input]
 

@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://51jyyeuwicqb"]
 
 [ext_resource type="Script" uid="uid://b0shiv64juobt" path="res://nau__principal.gd" id="1_tcn4t"]
+[ext_resource type="PackedScene" uid="uid://d24ngeatxg07c" path="res://bala_node.tscn" id="2_8rqb2"]
 [ext_resource type="Texture2D" uid="uid://cd5834bgu5sy6" path="res://nave png.png" id="2_voi7d"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8rqb2"]
@@ -10,6 +11,7 @@ size = Vector2(51, 38)
 collision_layer = 16
 collision_mask = 20
 script = ExtResource("1_tcn4t")
+Area_bala = ExtResource("2_8rqb2")
 
 [node name="Sprite_nau_principal" type="Sprite2D" parent="." unique_id=717402630]
 scale = Vector2(0.08, 0.08)

@@ -40,6 +40,7 @@ func die():
 		print("Game Over!")
 	else:
 		print("Vides restants: ", vides)
+		
 func actualitzar_vides_ui():
 	var label_vides = get_tree().get_first_node_in_group("vides_label")
 	if label_vides:

@@ -8,6 +8,7 @@ var velocitat= 100
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	add_to_group("enemics")
 	timer.wait_time =randf_range(1,10)
 	timer.start()
 

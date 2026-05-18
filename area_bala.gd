@@ -7,7 +7,7 @@ func _ready() -> void:
 	pass
 	
 func _physics_process(delta: float) -> void:
-	position += speed*Vector2(0, -1)*delta
+	position += speed * Vector2(0, -1) * delta
 	if(position.y<0):
 		viu= false
 		

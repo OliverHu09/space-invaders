@@ -1,8 +1,6 @@
 [gd_scene format=3 uid="uid://bg2vw0cycop8r"]
 
-[ext_resource type="Texture2D" uid="uid://ce6gt521jfado" path="res://fondo negre.jpg" id="3_0hol4"]
-[ext_resource type="Script" uid="uid://f1p5qlohot3v" path="res://fondo_espai_2.gd" id="3_q6r6c"]
-[ext_resource type="Script" uid="uid://cb42igqyqr6lp" path="res://fondo_espai_script.gd" id="4_q6r6c"]
+[ext_resource type="Texture2D" uid="uid://db55laju07qhm" path="res://negre-1200x675.jpg" id="1_d21ai"]
 [ext_resource type="Script" uid="uid://bftxg8s0ivu7c" path="res://bales.gd" id="5_4d7sh"]
 [ext_resource type="PackedScene" uid="uid://51jyyeuwicqb" path="res://nau__principal.tscn" id="6_d21ai"]
 [ext_resource type="PackedScene" uid="uid://lsbnherpfog6" path="res://Limit.tscn" id="6_kdubu"]
@@ -12,17 +10,9 @@
 
 [node name="Escena principal" type="Node2D" unique_id=2044328370]
 
-[node name="Fondo espai" type="Sprite2D" parent="." unique_id=1788006528]
-position = Vector2(760.00006, -1413)
-scale = Vector2(2.431909, 3.3266907)
-texture = ExtResource("3_0hol4")
-script = ExtResource("4_q6r6c")
-
-[node name="Fondo espai2" type="Sprite2D" parent="." unique_id=1656142376]
-position = Vector2(760.00006, -37)
-scale = Vector2(2.431909, 3.3266907)
-texture = ExtResource("3_0hol4")
-script = ExtResource("3_q6r6c")
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2017931033]
+position = Vector2(584, 311)
+texture = ExtResource("1_d21ai")
 
 [node name="Limit" parent="." unique_id=1004749942 instance=ExtResource("6_kdubu")]
 position = Vector2(23, 0)

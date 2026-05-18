@@ -7,5 +7,5 @@ func _ready() -> void:
 	pass
 
 func _on_area_entered(area):
-	if area.is_in_group("projectils"):
+	if area.is_in_group("projectils") or area.is_in_group("bales_enemigas"):
 		area.queue_free()
